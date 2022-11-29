@@ -29,7 +29,7 @@ export default function Home({ exploreData, cardsData }: any) {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {/* API endpoints */}
-            {exploreData?.map(({ img, distance, location }) => (
+            {exploreData?.map(({ img, distance, location }: any) => (
               <SmallCard
                 key={img}
                 img={img}
@@ -44,7 +44,7 @@ export default function Home({ exploreData, cardsData }: any) {
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -m-3">
-            {cardsData?.map(({ img, title }) => (
+            {cardsData?.map(({ img, title }: any) => (
               <MediumCard key={img} img={img} title={title} />
             ))}
           </div>
