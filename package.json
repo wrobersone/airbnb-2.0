@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "react-scripts build",
+    "build": "CI = false && react-scripts build",
     "start": "react-scripts start"
   },
   "dependencies": {
