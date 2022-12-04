@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "CI = npm run build",
-    "start": "next start"
+    "build": "react-scripts build",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
